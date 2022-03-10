@@ -1,0 +1,66 @@
+\documentclass{ltjsarticle}
+\usepackage{luatexja,comment,fancyhdr}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{bmpsize}
+%\usepackage{listings,jlisting}
+\usepackage{listings}
+\usepackage{url}
+
+%setting of header
+\pagestyle{fancy}
+    \lhead{No.1}
+    \chead{進捗報告書}
+    \rhead{新惠拓実　2022.01.01}
+\begin{document}
+    \section{今週のまとめ}
+    \begin{itemize}
+        \item \textbf{実験１のタイトル}
+        \vspace{1.5mm}
+        \begin{itemize}
+            \item 目的\\
+            目的内容
+            \vspace{1.5mm}
+            \item 結果\\
+            結果内容
+        \end{itemize}
+
+    %実験2以降があるときは上記をこの上にコピペ
+    \end{itemize}
+        \section{実験１のタイトル}
+        \begin{itemize}
+            \item \large　目的\\
+                \normalsize　目的内容
+                \vspace{2mm}
+
+            \item \large　内容の詳細（実験１）\\
+            \begin{itemize}
+                \item 内容１\\
+                \item 内容２\\                    
+                \item 結果\\
+                    \textbf{実験結果1}\\
+                    \vspace{4mm}
+                    結果内容\\
+
+                    %画像使用時以下を使用
+                    %\begin{center}
+                    %    \includegraphics[width=10cm]{image.png}\\
+                    %    \small 画像のタイトル\\
+                    %\end{center}
+
+                    \textbf{実験結果2}\\
+                    \vspace{4mm}
+                    結果内容\\
+
+                    \textbf{考察}\\
+                        \normalsize 考察内容
+
+            \end{itemize}
+        \end{itemize}
+        \section{今後やること}
+            \begin{itemize}
+                \item (今週)
+                \item (来週まで)
+                \item (来週以降)
+            \end{itemize}
+\end{document}
